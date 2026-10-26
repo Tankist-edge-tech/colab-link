@@ -1,4 +1,4 @@
-# link
+# colab-link
 
 A tiny, general-purpose bridge between **Google Colab** (where your model runs) and **your local machine** (where your GUI/app runs).
 
@@ -27,8 +27,8 @@ Copy `link.py` next to your code on **both** machines, or clone the repo:
 
 ```python
 # Colab
-!git clone https://github.com/Tankist-edge-tech/link
-%cd link
+!git clone https://github.com/Tankist-edge-tech/colab-link
+%cd colab-link
 !pip -q install "websockets>=13"
 ```
 
